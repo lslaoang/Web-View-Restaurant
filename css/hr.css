@@ -1,0 +1,332 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+	background-color: skyblue;
+	font-family: Rockwell;
+    background: url('../images/hiraya/BG-new.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1{
+	font-size: 50px;
+	font-family: monotype corsiva;
+	text-align: center;
+	color: #330000;
+	text-shadow: 5px 5px 5px #ffff00;
+}
+
+p{
+	
+}
+
+footer{
+  background-color: black;
+   height: 80px;
+   width: 100%;
+  display: inline-block;
+
+}
+
+footer p {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+   }
+
+
+
+
+.header{
+	border: solid 5px red;
+	padding: 0px;
+	margin-top: 0px;
+	resize: auto;
+	sbackground-color: #fff;
+}
+/*for header--*/
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 0px 0 0px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+        height: 80px;
+    }
+
+    .navbar-default {
+        padding-left: 20px;
+        background: #fff;
+        background: rgba(255,255,255,0.99);
+        height: 80px;
+    }
+
+    .nav>li>a {
+         height: 50px;
+        
+       
+      }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: left;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+
+/* for default nav bar customize */
+.navbar-default {
+  background-color: rgba(2,2,2, 0.9);
+  border-color: #e7e7e7;
+  font-family: rockwell;
+  text-transform: uppercase;
+
+}
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+.navbar-default .navbar-text {
+  color: #777;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #777;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: yellow;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: blue;
+  background-color: white;
+}
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: none;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.content {
+  color: black;
+  background: rgba(225, 255, 205, 0.55);
+  border-radius: 3px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.85);
+  top: 0;
+  left: 0;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  right: 0;
+  z-index: 2;
+  padding: 0 10px;
+  padding: auto;
+}
+
+
+div.figure{
+	float: right;
+	width: 100%;
+	height: 100%;
+	border: thin silver solid;
+	margin: 0.5em;
+	padding: 0.5em;
+}
+div.figure p {
+	color: white;
+  	text-align: center;
+  	font-style: italic;
+  	font-size: smaller;
+  	text-indent: 0;
+  	font-size: 16px;
+}
+img.scaled {
+  width: 100%;
+}
+
+img.displayed{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.edge{
+  width: 100%;
+  height: 100px;
+  background-color: transparent;
+  margin-bottom: -30px;
+  }
+
+.border-less{
+  margin-left: -20px;
+  padding: none;
+}
+
+.container p{
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#description p{
+  font-size: 16px;
+  text-align: left;
+}
+
+#slide{
+  margin-top: 55px;
+}
+
+#slide p{
+  font-family: arial;
+  font-size: 16px;
+}
+
+#contact-me{
+  background-image: url("images/Raw Pics/flag.png");
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+#contact-me p{
+  text-align: center;
+}
+
+#reduce{
+  font-size: 14px;
+}
+
+#divHead{
+  margin-top: -12px;
+}
+
+#food-menu{
+
+
+.inLine{
+  display: inline-block;
+}
+
+#left p{
+  text-align: center;
+}
+
+.thistable td{
+  text-align: center;
+}
+
+
